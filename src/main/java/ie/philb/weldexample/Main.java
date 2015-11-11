@@ -15,7 +15,6 @@ import org.jboss.weld.environment.se.WeldContainer;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello...");
 
         Weld weld = new Weld();
         WeldContainer container = weld.initialize();
